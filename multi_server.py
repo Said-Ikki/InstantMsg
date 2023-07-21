@@ -10,16 +10,16 @@ Instant Messenger App Project : Server Side
 import socket
 import selectors
 import types
-
+'''
 import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="34SKlsa12",
+  password="password",
   database="text_server"
 )
 mycursor = mydb.cursor()
-
+'''
 '''def confirmUser(name, password):
     mycursor.execute("select * from user where user.name like {} AND user.password like {}".format(name, password ) )
     if mycursor[0][0] == name and mycursor[0][1] == password:
